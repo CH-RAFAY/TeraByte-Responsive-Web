@@ -1,1 +1,1 @@
-# Terabyte-Web Player: Music For Everyone!
+# TeraByte-Web Player: Music For Everyone!
