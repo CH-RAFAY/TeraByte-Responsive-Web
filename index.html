@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <title>TeraByte</title>
+    
+
+</head>
+<body>
+
+
+
+
+<!----------- Navbar ---------->
+
+<div id="navi" style="background-color: black;">
+  <a href="index.html">
+    <img src="Images\Logo green.png" id="logo" width="150px"/>
+  </a>
+
+<nav>
+    <ul> 
+        <li><a href="forum.html">Log in</a></li>               
+        <li><a href="forum.html">Sign up</a></li>
+        <li><a href="">|</a></li>
+        
+        <li><a href="Downlaod.html">Download</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="#section-2">Premium</a></li>
+
+    </ul>
+</nav>
+</div>
+
+
+<!-----JQuery:  For smooth Scrolling--->
+
+<script>
+  $(document).ready(function(){
+
+    $("a").on('click', function(event) {
+  
+      if (this.hash !== "") {
+
+        event.preventDefault();
+  
+ 
+        var hash = this.hash;
+  
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+ 
+          window.location.hash = hash;
+        });
+      } 
+    });
+  });
+  </script>
+
+
+
+<!----------- Second Portion ---------->
+
+
+<div class="second_Portion" style="background-color: #19e68c;">
+    <br><br><br>
+<h1 style="font-size: 40px;">Get Premium free for 1 month</h1><Br>
+    <p1 style="font-size:23px;"> Just Rs 299.00 / month after. Cancel anytime.</p1>
+<br><br><br>
+<a href="Downlaod.html">
+<button class="button1"><b>GET STARTED</b></button>
+</a>
+<a href="#section-2">
+<button class="button2"><b>VIEW PLANS</b></button></a>
+
+<br><br><br>
+<p4 style="font-size:12px ;"><u>Terms and conditions apply.</u>   1 month free not available for users who have already tried Premium.<br><br><br><br><p4>
+</div>
+
+
+<!----------- 3rs Portion ---------->
+
+<div class="third_Portion">
+    <center>
+        
+        <h1 style="font-weight: bolder;"><br><br>Why go Premium?</h1>
+    </center>
+    <div class="container">
+        <div class="ad-free">
+            <img src="Images\01.png" alt="Music player icon" style="width: 170px; padding: 50px;" >
+            <h3>Download music</h3>
+            <p>Listen everywhere</p>
+        </div>
+        <div class="ad-free">
+            <img src="Images\02.png" alt="Ad-free music listening logo" style="width: 190px; padding: 50px;">
+            <h3>Ad-free music listening</h3>
+            <p>Enjoy uninterrupted music</p>
+        </div>
+        <div class="ad-free">
+            <img src="Images\03.png" alt="Ad-free music listening logo" style="width: 170px; padding:50px ;">
+            <h3>Ad-free music listening</h3>
+            <p>Enjoy uninterrupted music</p>
+        </div>
+        <div class="ad-free">
+            <img src="Images\04.png" alt="Ad-free music listening logo" style="width: 170px; padding: 50px;">
+            <h3>Ad-free music listening</h3>
+            <p>Enjoy uninterrupted music</p>
+        </div>
+        
+    </div>
+    <br><br><br><br><br>
+</div>
+
+
+
+
+<!-----------------4th Portion--------------->
+
+
+<div class="PP" id="section-2">
+  <center><h1><br><br>Pick your Premium<br></h1>
+    <h4>Listen without limits on your phone, speaker, and other devices.</h4>
+
+  
+  </center>
+<div class="pricing-plans">
+    <div class="pricing-plan">
+      <h2>Basic</h2>
+      <p class="price">$9.99/month<hr></p>
+
+      <p1><br>&check; Unlimited users<br></p1>
+      <p1><br>&check; Unlimited storage<br></p1>
+      <p1><br>&check; Premium support<br></p1>
+
+      <br><br><br>
+
+      <a href="#" class="button"><b>Select Plan</b></a>
+
+      <p4 style="font-size:12px ;"><br><u>Terms and conditions apply.</u>1 month free not available for users who have already tried Premium.<br><br></p4>
+    </div>
+
+
+    <div class="pricing-plan popular">
+      <h2>Pro</h2>
+      <p class="price">$19.99/month<br><hr></p>
+ 
+      <p1><br>&check; Unlimited users<br></p1>
+      <p1><br>&check; Unlimited storage<br></p1>
+      <p1><br>&check; Premium support<br></p1>
+      <br><br><br>
+      <a href="#" class="button"><b>Select Plan</b></a>
+
+      <p4 style="font-size:12px ;"><br><u>Terms and conditions apply.</u>1 month free not available for users who have already tried Premium.<br><br></p4>
+    </div>
+
+
+    <div class="pricing-plan">
+      <h2>Enterprise</h2>
+      <p class="price">$99.99/month<br><hr></p>
+
+      <p1><br>&check; Unlimited users<br></p1>
+      <p1><br>&check; Unlimited storage<br></p1>
+      <p1><br>&check; Premium support<br></p1>
+      <br><br><br>
+      <a href="#" class="button"><b>Select Plan</b></a>
+
+      <p4 style="font-size:12px ;"><br><u>Terms and conditions apply.</u>1 month free not available for users who have already tried Premium.<br><br></p4>
+    </div>
+  </div>
+</div>
+
+
+<!----------------------Footer----------------->
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <a href="index.html">
+        <img src="Images\Logo green.png" alt="Spotify Logo" class="footer-logo">
+      </a>
+
+      <p class="footer-text"><br>© 2023 Spotify AB</p>
+    </div>
+    <div class="footer-right">
+      <ul class="footer-links">
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy Center</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">About Ads</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<style>
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+/*-------------------- Header----------------------- */
+
+#logo{
+    float:left;
+    display: inline-block;
+    margin-left: 140px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+  float: right ;
+}
+
+
+
+li a {
+  margin-top: 1px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+}
+
+
+#navi a:hover {
+  color: #19e68c;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    width: 100px;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+/*--------------------------- 2nd Portion------------------------ */
+
+.second_Portion{
+  font-family: sans-serif;
+  color: #000000;
+  padding-left: 170px;
+}
+
+button{
+
+    background-color:black;
+    border-radius: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    font-family: sans-serif;
+
+  
+}
+
+
+.button1 
+{
+  background-color:black;
+  border: black;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+.button2 
+{
+  background-color: rgba(0,0,0,0.1);
+  border: 2px solid white;
+
+}
+
+.third_Portion
+{
+background-color: #ffffff;
+margin-top: -22px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 13%;
+    margin-right: 12%;
+}
+    
+.music-player {
+    text-align: center;
+    margin-right: 20px;
+}
+.ad-free {
+    text-align: center;
+}
+
+
+
+.button1:hover {
+  background-color:rgba(255, 255, 255, 0.8);
+  color: #000000;
+  transition: ease-out, 0.5s;
+  border: none;
+
+}
+
+
+.button2:hover {
+  background-color:  rgba(0,0,0,0.3) ;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition:ease-out, 0.5s ;
+}
+
+
+
+
+
+
+/*--------------------------- 3rd Portion------------------------ */
+
+.PP{
+  margin-top: -22px;
+  background-color: #e3e2e2;
+}
+.pricing-plans {
+  display: flex;
+ padding-top:3%;           /*50*/
+ padding-left: 20%;
+ padding-right: 20%;
+ padding-bottom: 4%;
+ 
+
+}
+
+.pricing-plan {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  margin: 10px;
+
+
+}
+
+.pricing-plan.popular {
+  background-color: #f5f5f5;
+  width: 200px;
+}
+
+.pricing-plan h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  width: 200px;
+}
+
+.pricing-plan p.price {
+  font-size: 20px;
+  margin: 20px 0;
+  width: 200px;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-plan li {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.pricing-plan a.button {
+  background-color:black ;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pricing-plan a.button:hover {
+  background-color: #19e68c;
+}
+
+
+
+
+
+
+
+/*--------------------------- Footer------------------------ */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-right: 30px;
+
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 14px;
+  color: #e3e2e2;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-right: 10px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  margin-top: 20px;
+  color: rgb(171, 171, 171);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+</style>
+
+
+</body>
+</html>
