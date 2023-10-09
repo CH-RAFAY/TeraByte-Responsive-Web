@@ -1,3 +1,3 @@
-# TeraByte-Web Player: Music For Everyone!
+# TeraByte-Web Player!
 
 Visit: https://ch-rafay.github.io/TeraByte/
