@@ -1,6 +1,6 @@
 # TERABYTE: Music Application Based Web Project
 
-Hosting Link: https://ch-rafay.github.io/TERABYTE/
+Preview Link:https://ch-rafay.github.io/TERABYTE-Website/
 
 Web Engineering Project based on HTML / CSS / JS / PHP - TERABYTE is a music application website inspired by Spotify.
 
