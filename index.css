@@ -1,0 +1,286 @@
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+/*-------------------- Header----------------------- */
+
+#logo{
+    float:left;
+    margin-left: 140px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+  float: right ;
+}
+
+
+
+li a {
+  margin-top: 1px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+}
+
+
+#navi a:hover {
+  color: #19e68c;
+}
+
+
+@media (max-width: 1920px) {
+  nav;
+
+}
+
+
+
+
+/*--------------------------- 2nd Portion------------------------ */
+
+.second_Portion{
+  font-family: sans-serif;
+  color: #000000;
+  padding-left: 170px;
+}
+
+button{
+
+    background-color:black;
+    border-radius: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    font-family: sans-serif;
+
+  
+}
+
+
+.button1 
+{
+  background-color:black;
+  border: black;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+.button2 
+{
+  background-color: rgba(0,0,0,0.1);
+  border: 2px solid white;
+
+}
+
+.third_Portion
+{
+background-color: #ffffff;
+margin-top: -22px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 13%;
+    margin-right: 12%;
+}
+    
+.music-player {
+    text-align: center;
+    margin-right: 20px;
+}
+.ad-free {
+    text-align: center;
+}
+
+
+
+.button1:hover {
+  background-color:rgba(255, 255, 255, 0.8);
+  color: #000000;
+  transition: ease-out, 0.5s;
+  border: none;
+
+}
+
+
+.button2:hover {
+  background-color:  rgba(0,0,0,0.3) ;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition:ease-out, 0.5s ;
+}
+
+
+
+
+
+
+/*--------------------------- 3rd Portion------------------------ */
+
+.PP{
+  margin-top: -22px;
+  background-color: #e3e2e2;
+}
+.pricing-plans {
+  display: flex;
+ padding-top:3%;           /*50*/
+ padding-left: 20%;
+ padding-right: 20%;
+ padding-bottom: 4%;
+ 
+
+}
+
+.pricing-plan {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  margin: 10px;
+
+
+}
+
+.pricing-plan.popular {
+  background-color: #f5f5f5;
+  width: 200px;
+}
+
+.pricing-plan h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  width: 200px;
+}
+
+.pricing-plan p.price {
+  font-size: 20px;
+  margin: 20px 0;
+  width: 200px;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-plan li {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.pricing-plan a.button {
+  background-color:black ;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pricing-plan a.button:hover {
+  background-color: #19e68c;
+}
+
+
+
+
+
+
+
+/*--------------------------- Footer------------------------ */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-right: 30px;
+
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 14px;
+  color: #e3e2e2;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-right: 10px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  margin-top: 20px;
+  color: rgb(171, 171, 171);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
