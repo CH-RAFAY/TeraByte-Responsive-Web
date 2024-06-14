@@ -12,14 +12,13 @@ body{
 
 #logo{
     float:left;
-    margin-left: 140px;
+    margin-left: 3%;
 }
 
 
 ul {
     list-style-type: none;
-    margin-right: 200px;
-    padding: 0;
+    padding-right: 5%;     /*Padding in %*/
     overflow: hidden;
 }
 li {
@@ -38,14 +37,34 @@ li a {
   text-decoration: none;
 }
 
+nav svg {
+  fill: var(white);
+}
+#sidebar-active
+{
+  display: none;
+}
+
 
 #navi a:hover {
   color: #19e68c;
 }
 
+.open-side-button, .close-side-button
+{
+display: none;
+padding: 0 20px;
+}
 
-@media (max-width: 1920px) {
-  nav;
+
+@media (max-width: 1900px) {
+ 
+nav
+{
+  background: #000;
+  height: 80px;
+  width: 100%;
+}
 
 }
 
