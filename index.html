@@ -1,80 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <title>TeraByte</title>
-    
-
+    <title>TERABYTE BEATS</title>
 </head>
+
+
+
 <body>
 
-
-
-
-<!----------- Navbar ---------->
-
-<div id="navi" style="background-color: black;">
-  <a href="index.html">
-    <img src="Images\Logo green.png" id="logo" width="150px"/>
-  </a>
-
+    <!--Navbar-->
 <nav>
-  <input type="checkbox" id="sidebar-active">
-  <label for="sidebar-active" class="open-side-button">
-    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-  </label>
-  <div class="links-container">
-    <label for="sidebar-active" class="close-side-button">
-      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    <img src="Blue.png" alt="logo" id="logo" >
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
     </label>
-  </div>  
-  
-  <ul> 
-        <li><a href="forum.html">Log in</a></li>               
-        <li><a href="forum.html">Sign up</a></li>
-        <li><a href="">|</a></li>
-        
-        <li><a href="Downlaod.html">Download</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="#section-2">Premium</a></li>
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </label>
 
-    </ul>
+
+        <a href="#" class="home-link">Premium</a>
+        <a href="#">Download</a>
+        <a href="#">Support</a>
+        <a href="#" class="except">|</a>
+        <a href="#">Login</a>
+        <a href="#">Signup</a>
+
+
+
+    </div>
+
+
 </nav>
-</div>
 
-
-<!-----JQuery:  For smooth Scrolling--->
-
-<script>
-  $(document).ready(function(){
-
-    $("a").on('click', function(event) {
-  
-      if (this.hash !== "") {
-
-        event.preventDefault();
-  
- 
-        var hash = this.hash;
-  
-
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-     
- 
-          window.location.hash = hash;
-        });
-      } 
-    });
-  });
-  </script>
-
+    
 
 
 <!----------- Second Portion ---------->
@@ -212,9 +177,6 @@
 </footer>
 
 
-
-
-
-
+    
 </body>
 </html>
