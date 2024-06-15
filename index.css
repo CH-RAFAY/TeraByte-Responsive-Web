@@ -12,7 +12,7 @@
 html
 {
     font-size: 12pt;
-    font-family: Poppins, Segoe UI, Tahoma, Verdana, sans-serif;
+    font-family: Poppins, Segoe UI, "Tahoma", Verdana, sans-serif;
 }
 
 nav
@@ -152,7 +152,6 @@ nav svg
 /*--------------------------- 2nd Portion------------------------ */
 
 .second_Portion{
-    font-family: sans-serif;
     color: #ffffff;
     padding-left: 10%;
     padding-right: 10%;
@@ -255,7 +254,14 @@ nav svg
     transition:ease-out, 0.5s ;
   }
   
+  /
   
+  @media (max-width: 510px) {  /*incomplete*/
+
+    
+
+    
+  }
   
   
   
@@ -263,9 +269,15 @@ nav svg
   /*--------------------------- 3rd Portion------------------------ */
 
 
+  .third_Portion
+  {
+    padding-top: 50px;
+  }
+
   .PP{
     margin-top: -22px;
-    background-color: #e3e2e2;
+    background-color: #121212;
+    color: white;
   }
   .pricing-plans {
     display: flex;
@@ -274,36 +286,51 @@ nav svg
    margin-right: auto;
    padding-bottom: 4%;
    padding-top:3%;           /*50*/
-   padding-left: 10%;
-   padding-right: 10%;
+  /* padding-left: 12%;
+   padding-right: 12%; */
+   justify-content: center;
+   
    
   
   }
   
   .pricing-plan {
-    background-color: #fff;
+    
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 30px;
-    text-align: center;
-    margin: 10px;
+    margin: 15px;
     max-width: 300px;
+    background-color: #242424;
+    text-align:  center;
   
   }
   
-
+  .pricing-plan img
+  {
+    width: 100px;
+    display: block;
+    margin-bottom: 4%;
+  }
   
+  .P3H
+  {
+    max-width: 80%;
+    margin: auto;
+
+  }  
+
+
   .pricing-plan h2 {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 0;
-    width: 200px;
+   
   }
   
   .pricing-plan p.price {
     font-size: 20px;
     margin: 20px 0;
-    width: 200px;
+    
   }
   
   .pricing-plan ul {
