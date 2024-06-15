@@ -427,7 +427,7 @@ nav svg
     }
   
     .pricing-plan {
-      max-width: 100%; 
+      max-width: 80%; 
       margin: 10px 0; 
     }
   }
