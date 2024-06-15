@@ -176,7 +176,6 @@ nav svg
       display: inline-block;
       font-size: 15px;
       margin-top: 5%;
-      font-family: sans-serif;
   
     
   }
@@ -185,7 +184,7 @@ nav svg
   .button1 
   {
     background-color:#ffd2d7;
-    margin-right: 2%;
+    margin-right: 1%;
     padding: 15px 50px 15px 50px;
   }
   
@@ -207,6 +206,7 @@ nav svg
   {
     background-color: rgba(0,0,0,0.1);
     border: 2px solid white;
+    margin-left: 2%;
   
   }
   
@@ -244,9 +244,6 @@ nav svg
   
   
   
-
-  
-  
   .button2:hover {
     background-color:  rgba(0,0,0,0.3) ;
     color: #ffffff;
@@ -254,16 +251,59 @@ nav svg
     transition:ease-out, 0.5s ;
   }
   
+  #CH 
+  {
+    font-size: 40px;
+    max-width: 80%;
+  }
+
+
+  #CP 
+  {
+    font-size: 20px;
+  }
   
-  
-  @media (max-width: 510px) {  /*incomplete*/
+  @media (max-width: 670px)      /*incomplete*/
+  { 
 
     
-
+    #CH 
+    {
+      font-size: 40px;
+      max-width: 90%;
+      margin: 0 auto 0 auto;
+    }
     
   }
   
+  @media (max-width: 560px)
+  {
+
+    button
+    {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .button1 
+    {
+      background-color:#ffd2d7;
+
+      padding: 2% 45% 2% 45%;
+      
+    }
+    
+    .button2 
+    {
+      background-color: rgba(0,0,0,0.1);
+      border: 2px solid white;
+      padding: 2% 45% 2% 45%;
   
+    }
+    
+
+  }
   
   
   /*--------------------------- 3rd Portion------------------------ */
@@ -405,10 +445,12 @@ nav svg
   
   .footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: center;
   }
   
   .footer-left {
@@ -452,6 +494,7 @@ nav svg
     color: rgb(171, 171, 171);
     text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
   }
   
   .footer-links a:hover {
@@ -459,4 +502,22 @@ nav svg
   }
   
   
+  @media (max-width: 850px)
+
+  {
+
+
+    .footer-container {
+      display: block;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-links
+    {
+      margin-top: 20px;
+    }
+
+
+  }
 
