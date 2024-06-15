@@ -153,27 +153,30 @@ nav svg
 
 .second_Portion{
     font-family: sans-serif;
-    color: #000000;
+    color: #ffffff;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
+
+    background: linear-gradient(-8deg, #131313 40%, #846E71 100%);
+    
+    
   }
+
+
   
   button{
   
       background-color:black;
       border-radius: 30px;
       color: white;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 30px;
-      padding-right: 30px;
+      padding: 15px 35px 15px 35px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
       font-size: 15px;
-      margin: 4px 2px;
+      margin-top: 5%;
       font-family: sans-serif;
   
     
@@ -182,11 +185,24 @@ nav svg
   
   .button1 
   {
-    background-color:black;
-    border: black;
-    border: 2px solid rgb(0, 0, 0);
+    background-color:#ffd2d7;
+    margin-right: 2%;
+    padding: 15px 50px 15px 50px;
   }
   
+  .button1 a
+  {
+    text-decoration: none;
+    color: black;
+  }
+
+  .button1:hover {
+    background-color:rgba(255, 255, 255, 0.8);
+    color: #000000;
+    transition: ease-out, 0.5s;
+    border: none;
+  
+  }
   
   .button2 
   {
@@ -197,7 +213,8 @@ nav svg
   
   .third_Portion
   {
-  background-color: #ffffff;
+  background-color: #121212;
+  color: white;
   margin-top: -22px;
   }
   
@@ -206,8 +223,15 @@ nav svg
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      background-color: white;
+      background-color: #131313;
+      margin: 0 10% 0 10%;
 
+  }
+
+  .container img
+  {
+    width: 160px;
+    padding: 50px;
   }
       
   .music-player {
@@ -221,13 +245,7 @@ nav svg
   
   
   
-  .button1:hover {
-    background-color:rgba(255, 255, 255, 0.8);
-    color: #000000;
-    transition: ease-out, 0.5s;
-    border: none;
-  
-  }
+
   
   
   .button2:hover {
