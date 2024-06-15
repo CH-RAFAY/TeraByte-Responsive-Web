@@ -155,8 +155,8 @@ nav svg
     color: #ffffff;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 7%;
+    padding-bottom: 6%;
 
     background: linear-gradient(-8deg, #131313 40%, #846E71 100%);
     
@@ -174,8 +174,7 @@ nav svg
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 15px;
-      margin-top: 5%;
+      margin-top: 3%;
   
     
   }
@@ -197,7 +196,7 @@ nav svg
   .button1:hover {
     background-color:rgba(255, 255, 255, 0.8);
     color: #000000;
-    transition: ease-out, 0.5s;
+    transform: scale(1.05);
     border: none;
   
   }
@@ -205,9 +204,15 @@ nav svg
   .button2 
   {
     background-color: rgba(0,0,0,0.1);
-    border: 2px solid white;
-    margin-left: 2%;
+    border: 0.5px solid white;
+
   
+  }
+
+  .button2:hover {
+
+    transform: scale(1.05);
+
   }
   
   .third_Portion
@@ -244,12 +249,7 @@ nav svg
   
   
   
-  .button2:hover {
-    background-color:  rgba(0,0,0,0.3) ;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    transition:ease-out, 0.5s ;
-  }
+
   
   #CH 
   {
@@ -311,7 +311,8 @@ nav svg
 
   .third_Portion
   {
-    padding-top: 50px;
+    padding-top: 5%;
+    padding-bottom: 10%;
   }
 
   .PP{
@@ -324,7 +325,7 @@ nav svg
 
    margin-left: auto;
    margin-right: auto;
-   padding-bottom: 4%;
+   padding-bottom: 10%;
    padding-top:3%;           /*50*/
   /* padding-left: 12%;
    padding-right: 12%; */
@@ -398,7 +399,7 @@ nav svg
   }
   
   .pricing-plan a.button:hover {
-    background-color: #19e68c;
+    transform: scale(1.1);
   }
   
   
@@ -428,7 +429,12 @@ nav svg
   
     .pricing-plan {
       max-width: 80%; 
-      margin: 10px 0; 
+      margin: 20px 0; 
+    }
+
+    #hoo
+    {
+      max-width: 80%;
     }
   }
   
@@ -450,7 +456,6 @@ nav svg
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: center;
   }
   
   .footer-left {
