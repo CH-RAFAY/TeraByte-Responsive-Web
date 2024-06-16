@@ -53,6 +53,11 @@ nav a:hover
     color:#1dd05d;
 }
 
+#except:hover
+{
+  color: white;
+}
+
 nav svg
 {
     fill:#fff;
