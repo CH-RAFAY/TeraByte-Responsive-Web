@@ -525,4 +525,24 @@ nav svg
 
 
   }
+  
+
+@media (max-width: 500px)
+{
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  
+
+  
+}
 

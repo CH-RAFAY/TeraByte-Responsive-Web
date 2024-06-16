@@ -1,6 +1,6 @@
 
 body{
-  background: linear-gradient(5deg, #000000 80%, #19e68c 100%);
+  background: linear-gradient(-5deg, #000000 80%, #1ed760 100%);
   font-family: sans-serif;
   color: white;
 }
@@ -8,7 +8,6 @@ body{
 
 #logo{
   float:left;
-  display: inline-block;
   margin-left: 140px;
 }
 
@@ -81,31 +80,32 @@ button:hover
 }
 
 
+@media (max-width: 768px) 
+{
+  .login-section 
+  {
+    display: none;
+    
+  }
 
+  #logo
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    float: none;
+  }
 
-
-
-
-#navi a:hover {
-color: #3bffaa;
+  .S2{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
 }
 
-@media (max-width: 768px) {
-#logo {
-  width: 100px;
-}
 
-nav ul li {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
-}
-}
+/*---------------- section 2-------------------*/
 
-
-/* section 2*/
 
 .S2{
   padding-left: 30%;
@@ -147,6 +147,27 @@ color: #19e68c;
 }
 
 
+@media (max-width: 1200px) 
+{
+ 
+
+  .S2{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+}
+
+@media (max-width: 768px) 
+{
+  
+
+  .S2{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
 
 /*--------------------------- Footer------------------------ */
 
@@ -184,6 +205,7 @@ footer {
 
 .footer-right {
   display: flex;
+  flex-direction: column;
 }
 
 .footer-links {
@@ -219,9 +241,11 @@ footer {
 {
 
 
+  
+
   .footer-container {
     display: block;
-    max-width: 1200px;
+    max-width: 95%;
     margin: auto;
   }
 
@@ -231,4 +255,24 @@ footer {
   }
 
 
+}
+ 
+
+@media (max-width: 500px)
+{
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  
+
+  
 }
