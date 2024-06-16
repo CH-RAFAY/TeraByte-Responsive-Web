@@ -46,15 +46,21 @@ position: absolute;
 top: 50%;  
 transform: translateY(-50%); 
 right: 10px; 
+margin-top: 30px;
 }
 
 .login-section img {
-margin-right: 10px; 
+margin-right: 10px; ;
 
 }
 
 .login-section button {
-/* Style buttons here */
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: white ;
+  
 }
 
 
@@ -115,7 +121,7 @@ text-decoration: none;
 }
 
 a:hover {
-color: #19e68c;;
+color: #19e68c;
 }
 
 
