@@ -126,7 +126,7 @@ nav svg
 
     nav a:hover
 {
-    background-color: rgb(218, 204, 75);
+    background-color: #846E71;
     color: #fff;
 }
 
@@ -135,9 +135,11 @@ nav svg
     right: 0;
 }
 
+
+
 #sidebar-active:checked ~ #overlay
 {
-    background: rgb(179, 226, 239);
+    background: rgba(0, 0, 0, 0.81);
     height: 100%;
     width: 100%;
     position: fixed;
@@ -145,7 +147,7 @@ nav svg
     left: 0;
     z-index: 9;
 
-}
+} 
 
 }
 
@@ -190,6 +192,7 @@ nav svg
     background-color:#ffd2d7;
     margin-right: 1%;
     padding: 15px 50px 15px 50px;
+    border: none;
   }
   
   .button1 a

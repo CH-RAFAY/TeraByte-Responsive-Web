@@ -126,7 +126,7 @@ nav svg
 
     nav a:hover
 {
-    background-color: rgb(218, 204, 75);
+    background-color: #846E71;
     color: #fff;
 }
 
@@ -137,7 +137,7 @@ nav svg
 
 #sidebar-active:checked ~ #overlay
 {
-    background: rgb(179, 226, 239);
+    background: rgba(0, 0, 0, 0.81);
     height: 100%;
     width: 100%;
     position: fixed;
