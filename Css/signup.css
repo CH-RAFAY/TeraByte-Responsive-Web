@@ -57,25 +57,33 @@ background-color: #121212;
     transition: background-color 0.3s ease;
   }
   
+      
   .facebook {
-    background-color: #0a84ed;
+    background-color: black;
+    color: #0a84ed;
+    border: 1px solid gray;
   }
   
   .twitter {
-    background-color: #424d56;
+    background-color: black;
+    color: #a5a5a5;
+    border: 1px solid gray;
   }
   
   .google {
-    background-color:  #DB4437;
-    color: white;
+    background-color:  black;
+    color: #DB4437;
+    border: 1px solid gray;
   }
   
   .facebook:hover {
     background-color: #2d4373;
+    color: white;
   }
   
   .twitter:hover {
     background-color: #707070;
+    color: white;
 
   }
   
@@ -96,6 +104,8 @@ border-color: #626262;
     font-weight: bold;
     
   }
+
+
 
 
 
