@@ -1,0 +1,451 @@
+
+    
+body{
+    font-family: sans-serif;
+    color: rgb(183, 183, 183);
+    background: linear-gradient(to bottom, rgb(41, 40, 40), #000000);
+    
+    
+}
+
+
+    
+    
+    .header{
+        padding-top: 25px;
+        
+    }
+    
+    
+    .social-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      
+      .facebook{
+        padding: 15px 150px;
+        margin: 5px;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+       
+      
+      .twitter {
+        padding: 15px 160px;
+        margin: 5px;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .google {
+        padding: 15px 160px;
+        margin: 5px;
+        border-style:double;
+        border-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .facebook {
+        background-color: black;
+        color: #0a84ed;
+        border: 1px solid gray;
+      }
+      
+      .twitter {
+        background-color: black;
+        color: #a5a5a5;
+        border: 1px solid gray;
+      }
+      
+      .google {
+        background-color:  black;
+        color: #DB4437;
+        border: 1px solid gray;
+      }
+      
+      .facebook:hover {
+        background-color: #2d4373;
+        color: white;
+      }
+      
+      .twitter:hover {
+        background-color: #707070;
+        color: white;
+    
+      }
+      
+      .google:hover {
+        background-color: #0F9D58;
+        color: #ffffff;
+        border-style: none;
+      }
+      
+    #oo
+    {
+    background-color: #000000;
+    border-color: #626262;
+    }
+    
+      #oo::placeholder
+      {
+        font-weight: bold;
+        
+      }
+    
+    
+    
+    
+    
+    
+    
+      .hr-lines{
+        position: relative;
+        max-width: 450px;
+        margin: 40px;
+        text-align: center;
+      }
+      
+      .hr-lines:before{
+        content:" ";
+        height: 2px;
+        width: 100px;
+        background: rgb(106, 106, 106);
+        display: block;
+        position: absolute;
+    
+    padding-left: 70px;
+        top: 50%;
+        left: 0;
+      }
+      
+      .hr-lines:after{
+        content:" ";
+        height: 2px;
+        width: 100px;
+        background: rgb(106, 106, 106);
+        display: block;
+        position: absolute;
+        padding-right: 70px;
+        top: 50%;
+        right: 0;
+      }
+    
+      
+      
+      
+      
+    
+    
+    
+      form {
+        margin: 20px auto;
+        width: 500px;
+        padding: 20px;
+    
+        border-radius: 5px;
+    }
+    
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="checkbox"] {
+        margin-top: 10px;
+    
+    }
+    
+    button[type="submit"] {
+        background-color: #20e060;
+        color: rgb(255, 255, 255);
+        padding: 14px 35px;
+        margin: 8px 0px;
+        margin-left: 220px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #4afa85;
+        color: #000000;
+    }
+    
+    .container {
+        padding: 16px;
+    }
+    
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+    
+    
+    
+    .slogin{
+        padding: 15px 160px;
+        margin: 5px;
+        border:none;
+        border-radius: 30px;
+        color: rgb(97, 96, 96);
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+    
+      .slogin {
+        background-color:rgb(229, 227, 227) ;
+    
+      }
+    
+      .slogin:hover {
+        background-color: #20e060;
+        color: #fff;
+      }
+      
+
+      .abody
+      {
+        margin: 5% 25%;
+        padding:  3% 0;
+        background-color: #121212;
+        border-radius: 10px;
+      }
+
+
+      @media screen and (max-width: 1200px) 
+      {
+          .abody
+          {
+            margin: 5% auto;
+            padding:  3% 0;
+            max-width: 80%;
+            background-color: #121212;
+            border-radius: 10px;
+          }
+    
+      }
+
+      @media screen and (max-width: 800px)
+      {
+        .abody
+        {
+          margin: 0 auto;
+          max-width: 100%;
+          background-color: #121212;
+          border-radius: 10px;
+        }
+      }
+  
+
+    
+      @media screen and (max-width: 600px) {
+        form {
+            width: 90%;
+            
+        }
+
+        .abody
+        {
+          margin: 0 auto;
+          padding:  3% 0;
+          background-color: #121212;
+          border-radius: 10px;
+        }
+        
+        .P-2
+        {
+          max-width: 90%;
+          margin: 0 auto;
+    
+        }
+    
+        .facebook{
+          padding: 15px 90px;
+    
+    
+        }
+         
+        
+        .twitter {
+          padding: 15px 100px;
+     
+    
+        }
+        
+        .google {
+          padding: 15px 100px;
+    
+    
+        }
+    
+        .slogin{
+          padding: 14px 80px;
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+    
+    
+        }
+    
+        button[type="submit"] {
+          background-color: #20e060;
+          color: rgb(255, 255, 255);
+          padding: 15px 100px;
+          margin: 20px auto;
+          display: flex;
+          flex-wrap: wrap;
+    
+      }
+    
+      .txt
+      {
+        display: none;
+      }
+    
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 420px) {
+      form {
+          width: 90%;
+          
+      }
+      
+      .P-2
+      {
+        max-width: 95%;
+        margin: 0 auto;
+    
+      }
+    
+      .facebook{
+        padding: 13px 90px;
+    
+    
+      }
+       
+      
+      .twitter {
+        padding: 12px 100px;
+        
+    
+      }
+      
+      .google {
+        padding: 12px 100px;
+        
+    
+      }
+    
+      .slogin{
+        padding: 12px 80px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+    
+      }
+    
+      button[type="submit"] {
+        background-color: #20e060;
+        color: rgb(255, 255, 255);
+        padding: 12px 80px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .txt
+    {
+      display: none;
+    }
+    
+    
+    
+    }
+    
+    @media screen and (max-width: 400px) {
+      form {
+          width: 90%;
+          
+      }
+      
+      .P-2
+      {
+        max-width: 95%;
+        margin: 0 auto;
+    
+      }
+    
+      .facebook{
+        padding: 5px 100px;
+    
+    
+      }
+       
+      
+      .twitter {
+        padding: 5px 100px;
+        
+    
+      }
+      
+      .google {
+        padding: 5px 100px;
+        
+    
+      }
+    
+      .slogin{
+        padding: 4px 70px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+    
+      }
+    
+      button[type="submit"] {
+        background-color: #20e060;
+        color: rgb(255, 255, 255);
+        padding: 12px 80px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+     }
+    
+    .txt
+     {
+      display: none;
+     }
+    
+    
+    }
+
