@@ -79,6 +79,7 @@ nav svg
     width:150px;
     margin-left: 10%;
     margin-right:auto ;
+    cursor: pointer;
 
    /* flex: 0 0 auto; */
    /* margin-left: auto; */
