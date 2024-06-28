@@ -25,6 +25,7 @@ nav
 
 }
 
+
 .links-container
 {
     height: 100%;
@@ -299,8 +300,15 @@ nav svg
     {
       background-color:#ffd2d7;
 
-      padding: 2% 45% 2% 45%;
+      padding: 2% 43% 2% 43%;
+
+
       
+    }
+
+    a
+    {
+      text-decoration: none;
     }
     
     .button2 
