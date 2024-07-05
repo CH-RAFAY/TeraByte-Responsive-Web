@@ -13,7 +13,9 @@ html
 {
     font-size: 12pt;
     font-family: Poppins, Segoe UI, "Tahoma", Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 nav
 {
