@@ -115,7 +115,7 @@ nav svg
         justify-content: flex-start
     }
 
-    .except
+    #except
     {
         display: none;
     }
