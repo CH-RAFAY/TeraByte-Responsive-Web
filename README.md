@@ -1,5 +1,5 @@
 <h1>EchoPulse</h1>
-<p>EchoPulse is a Spotify-like front end application designed to provide a seamless and visually appealing music streaming experience. This project showcases advanced usage of Sass, HTML, CSS, and JavaScript to create a dynamic and responsive interface. The application is hosted as <strong>TeraByte</strong>.</p>
+<p>TeraByte is a Spotify-like front end application designed to provide a seamless and visually appealing music streaming experience. This project showcases advanced usage of Sass, HTML, CSS, and JavaScript to create a dynamic and responsive interface. The application is hosted as <strong>TeraByte</strong>.</p>
 
 <h2>Features</h2>
 <ul>
